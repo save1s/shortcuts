@@ -1,0 +1,1 @@
+# shortcuts.save1s.com
