@@ -8,7 +8,8 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Main
+      component: Main,
+      title: 'Shortcut save 1s!'
     }
   ]
 })
