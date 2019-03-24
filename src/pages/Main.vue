@@ -67,7 +67,7 @@
       <el-footer>
         <div class="bs-container">
           <el-tag type="info" @click="save1s" style="cursor: pointer; font-size: 14px">
-            <font-awesome-icon :icon="['fab', 'github']"/>A save1s project.
+            <font-awesome-icon :icon="['fab', 'github']"/> A save1s project.
           </el-tag>
         </div>
       </el-footer>
