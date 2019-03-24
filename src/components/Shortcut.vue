@@ -45,7 +45,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .text {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 overflow: hidden;
 text-overflow:ellipsis;

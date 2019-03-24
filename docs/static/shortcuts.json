@@ -1,15 +1,9 @@
-[{
+[
+    {
         "name": "查询校园卡余额",
-        "url": "https://google.com",
+        "url": "https://www.icloud.com/shortcuts/0d5921b86e4749f3afe5e3eb0c59a688",
         "icon": "money-check",
         "color": "rgb(254, 153, 73)",
         "description": "一键查询校园卡余额，也可以通过siri语音查询"
-    },
-    {
-        "name": "充值校园卡",
-        "url": "https://google.com",
-        "icon": "money-check",
-        "color": "#67C23A",
-        "description": "一键充值校园卡余额（从中信卡转账）"
     }
 ]
