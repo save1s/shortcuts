@@ -12,5 +12,12 @@
         "icon": "money-check",
         "color": "#67C23A",
         "description": "通过中信卡转账的方式一键充值校园卡。"
+    },
+    {
+        "name": "查询网费余额",
+        "url": "https://www.icloud.com/shortcuts/7a4625f0d850403cbf96df9bbdaec025",
+        "icon": "wifi",
+        "color": "rgb(251, 179, 11)",
+        "description": "查询校园网 NJUPT 网费余额。"
     }
 ]
