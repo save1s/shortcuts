@@ -10,19 +10,18 @@
       </el-header>
       <el-main>
         <div class="bs-container">
-          <!-- 四列布局 -->
-          <el-row
-            :gutter="20"
-            type="flex"
-            justify="left"
-            style="padding:5px"
-          >
+            <el-alert title="save1s捷径目前正处于开发阶段，后端接口变化可能会导致捷径不可用，请注意及时更新。" type="warning" style="margin-bottom: 10px"></el-alert>
+                      <el-alert title="如果你是从微信或QQ打开的本网站，安装捷径时，可能需要选择菜单从Safari打开。" type="warning" style="margin-bottom: 10px"></el-alert>
+          <el-row :gutter="20" type="flex" justify="left" style="padding:5px">
             <el-col :span="24">
               <el-badge :value="shortcuts_count" class="item" type="primary">
-                <el-button  type="text">南京邮电大学捷径</el-button>
+                <el-button type="text">南京邮电大学捷径</el-button>
               </el-badge>
             </el-col>
           </el-row>
+          
+          
+          <!-- 四列布局 -->
           <el-row
             :gutter="20"
             type="flex"
