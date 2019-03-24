@@ -18,7 +18,10 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 // Vue.use(VueRouter)
-
+const DEFAULT_TITLE = 'Shortcut save 1s!';
+router.afterEach((to) => {
+    document.title = to.meta.title || DEFAULT_TITLE;
+});
 const vue = new Vue({
   router,
   store,

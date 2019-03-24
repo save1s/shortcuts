@@ -15,6 +15,20 @@
             :gutter="20"
             type="flex"
             justify="left"
+            v-for="(row_shortcuts, index) in four_cols_shortcuts"
+            :key="index"
+            style="padding:5px"
+          >
+            <el-col :span="24">
+              <el-badge :value="shortcuts_count" class="item" type="primary">
+                <el-button  type="text">南京邮电大学捷径</el-button>
+              </el-badge>
+            </el-col>
+          </el-row>
+          <el-row
+            :gutter="20"
+            type="flex"
+            justify="left"
             class="hidden-xs-only"
             v-for="(row_shortcuts, index) in four_cols_shortcuts"
             :key="index"
@@ -35,7 +49,7 @@
           <el-row
             :gutter="20"
             type="flex"
-            justify="center"
+            justify="left"
             class="hidden-sm-and-up"
             v-for="(row_shortcuts, index) in two_cols_shortcuts"
             :key="1000 + index"
@@ -56,7 +70,7 @@
       <el-footer>
         <div class="bs-container">
           <el-tag type="info" @click="save1s" style="cursor: pointer; font-size: 14px">
-            <font-awesome-icon :icon="['fab', 'github']"/> A save1s project.
+            <font-awesome-icon :icon="['fab', 'github']"/>A save1s project.
           </el-tag>
         </div>
       </el-footer>
@@ -75,6 +89,7 @@ export default {
   data() {
     return {
       shortcuts: [],
+      shortcuts_count: 0,
       msgBody: ""
     };
   },
@@ -94,6 +109,7 @@ export default {
   mounted() {
     shortcutService.fetchShortcuts().then(data => {
       this.shortcuts = data;
+      this.shortcuts_count = data.length;
     });
   },
   name: "Main",

@@ -4,12 +4,12 @@ import Main from '@/pages/Main'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Main,
+  routes: [{
+    path: '/',
+    name: 'home',
+    component: Main,
+    meta: {
       title: 'Shortcut save 1s!'
     }
-  ]
+  }]
 })
