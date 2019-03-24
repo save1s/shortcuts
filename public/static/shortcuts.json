@@ -12,5 +12,12 @@
         "icon": "money-check",
         "color": "#67C23A",
         "description": "通过中信卡转账的方式一键充值校园卡。"
+    },
+    {
+        "name": "查询校历当前周",
+        "url": "https://www.icloud.com/shortcuts/59e8686f0f9c4279a12359925cb477c1",
+        "icon": "calendar-week",
+        "color": "rgb(46, 120, 242)",
+        "description": "一键查询校历当前周。"
     }
 ]
