@@ -19,5 +19,12 @@
         "icon": "wifi",
         "color": "rgb(251, 179, 11)",
         "description": "查询校园网 NJUPT 网费余额。"
+    },
+    {
+        "name": "查询校历当前周",
+        "url": "https://www.icloud.com/shortcuts/59e8686f0f9c4279a12359925cb477c1",
+        "icon": "calendar-week",
+        "color": "rgb(46, 120, 242)",
+        "description": "一键查询校历当前周。"
     }
 ]
