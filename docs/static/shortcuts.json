@@ -2,7 +2,7 @@
     {
         "name": "查询校园卡余额",
         "url": "https://www.icloud.com/shortcuts/f63cc17bdfa646cdb077ddf0abf7b6b0",
-        "icon": "money-check",
+        "icon": "file-invoice-dollar",
         "color": "rgb(254, 153, 73)",
         "description": "一键查询校园卡余额，也可以通过siri语音查询。"
     },
@@ -16,7 +16,7 @@
     {
         "name": "查询网费余额",
         "url": "https://www.icloud.com/shortcuts/7a4625f0d850403cbf96df9bbdaec025",
-        "icon": "wifi",
+        "icon": "network-wired",
         "color": "rgb(251, 179, 11)",
         "description": "查询校园网 NJUPT 网费余额。"
     },
@@ -25,6 +25,13 @@
         "url": "https://www.icloud.com/shortcuts/59e8686f0f9c4279a12359925cb477c1",
         "icon": "calendar-week",
         "color": "rgb(46, 120, 242)",
+        "description": "一键查询校历当前周。"
+    },
+    {
+        "name": "充值网费",
+        "url": "https://www.icloud.com/shortcuts/ca16b72b24014a819076fa37b4617e4d",
+        "icon": "wifi",
+        "color": "rgb(4, 143, 87)",
         "description": "一键查询校历当前周。"
     }
 ]

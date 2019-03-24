@@ -15,8 +15,6 @@
             :gutter="20"
             type="flex"
             justify="left"
-            v-for="(row_shortcuts, index) in four_cols_shortcuts"
-            :key="index"
             style="padding:5px"
           >
             <el-col :span="24">
