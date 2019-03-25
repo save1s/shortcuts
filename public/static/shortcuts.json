@@ -40,5 +40,12 @@
         "icon": "charging-station",
         "color": "#00796a",
         "description": "充值寝室电费，支持三牌楼与仙林。"
-    }
+    },
+    {
+        "name": "导入课程表",
+        "url": "https://www.icloud.com/shortcuts/90220130db2a4952ab9e1fb6442f77f5",
+        "icon": "calendar-week",
+        "color": "#7C54E7",
+        "description": "将南邮课程表导入iPhone、Mac、iCloud日历。"
+    },
 ]
