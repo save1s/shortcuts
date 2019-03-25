@@ -9,7 +9,7 @@ export default new Router({
     name: 'home',
     component: Main,
     meta: {
-      title: 'Shortcut save 1s!'
+      title: 'Shortcuts save 1s!'
     }
   }]
 })

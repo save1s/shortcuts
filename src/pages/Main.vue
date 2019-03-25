@@ -4,7 +4,7 @@
       <el-header>
         <div class="bs-container">
           <el-menu mode="horizontal">
-            <el-menu-item index="1" style="font-size: 18px">Shortcut save 1s!</el-menu-item>
+            <el-menu-item index="1" style="font-size: 18px">Shortcuts save 1s!</el-menu-item>
           </el-menu>
         </div>
       </el-header>
