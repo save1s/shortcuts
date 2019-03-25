@@ -15,7 +15,7 @@
     },
     {
         "name": "查询网费余额",
-        "url": "https://www.icloud.com/shortcuts/460cdf83e84f4376aea636ef8ab5a90d",
+        "url": "https://www.icloud.com/shortcuts/dca2c4c46e2c4a809049a37d6f0af3fe",
         "icon": "network-wired",
         "color": "rgb(251, 179, 11)",
         "description": "查询校园网 NJUPT 网费余额。支持使用siri查询"
