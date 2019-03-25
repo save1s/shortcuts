@@ -3,7 +3,25 @@ import App from '@/App.vue'
 
 import store from '@/store' 
 import router from '@/router'
-import ElementUI from 'element-ui';
+import { 
+  Button, 
+  Select,
+  Card,
+  Dialog,
+  Tag,
+  Menu,
+  MenuItem,
+  Main,
+  Header,
+  Footer,
+  Container,
+  Row,
+  Col,
+  Alert,
+  Badge,
+} from 'element-ui'; 
+
+
 import 'element-ui/lib/theme-chalk/index.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -13,10 +31,24 @@ library.add(fas)
 library.add(faGithub)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-
+Vue.use(Button)
+Vue.use(Select)
+Vue.use(Card)
+Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Main)
+Vue.use(Header)
+Vue.use(Footer)
+Vue.use(Container)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Alert)
+Vue.use(Badge)
 
 Vue.config.productionTip = false
-Vue.use(ElementUI);
+
 // Vue.use(VueRouter)
 const DEFAULT_TITLE = 'Shortcut save 1s!';
 router.afterEach((to) => {
