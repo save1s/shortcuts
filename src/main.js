@@ -24,10 +24,8 @@ import {
 
 import 'element-ui/lib/theme-chalk/index.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-library.add(fas)
 library.add(faGithub)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

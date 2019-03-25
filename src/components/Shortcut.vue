@@ -8,7 +8,7 @@
     >
       <div @click="dialogVisible = true" style="cursor: pointer">
         <div style="font-size: 30px">
-          <font-awesome-icon :icon="icon"/>
+          <i :class="icon_class"></i>
         </div>
         <div class="text">{{name}}</div>
       </div>
@@ -31,7 +31,11 @@ export default {
       dialogVisible: false
     };
   },
-
+  computed: {
+    icon_class: function() {
+        return "fas fa-" + this.icon
+    },
+  },
   name: "Shortcut",
   props: ["color", "name", "icon", "url", "description"],
   methods: {
