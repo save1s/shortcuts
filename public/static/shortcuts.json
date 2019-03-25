@@ -1,21 +1,21 @@
 [
     {
         "name": "查询校园卡余额",
-        "url": "https://www.icloud.com/shortcuts/647b90933210417d987f6bc39da2c65b",
+        "url": "https://www.icloud.com/shortcuts/04ac8e03127e40119f08e214db32cc48",
         "icon": "file-invoice-dollar",
         "color": "rgb(254, 153, 73)",
         "description": "一键查询校园卡余额，也可以通过siri语音查询。"
     },
     {
         "name": "充值校园卡",
-        "url": "https://www.icloud.com/shortcuts/30830ee02c6e45ce832d6edb28524b39",
+        "url": "https://www.icloud.com/shortcuts/0f575045d1364d308589dfb4a048c8b6",
         "icon": "money-check",
         "color": "#67C23A",
         "description": "通过中信卡转账的方式一键充值校园卡。"
     },
     {
         "name": "查询网费余额",
-        "url": "https://www.icloud.com/shortcuts/2ebb339dcb4a48868471c6d9a20f8fbd",
+        "url": "https://www.icloud.com/shortcuts/460cdf83e84f4376aea636ef8ab5a90d",
         "icon": "network-wired",
         "color": "rgb(251, 179, 11)",
         "description": "查询校园网 NJUPT 网费余额。支持使用siri查询"
@@ -29,14 +29,14 @@
     },
     {
         "name": "充值网费",
-        "url": "https://www.icloud.com/shortcuts/14fe19476c434162a0e27dbc5d934956",
+        "url": "https://www.icloud.com/shortcuts/38d6e9ad4c9e4e6291039f288ba267fb",
         "icon": "wifi",
         "color": "rgb(4, 143, 87)",
         "description": "充值校园网 NJUPT 网费余额。"
     },
     {
-        "name": "充电费",
-        "url": "https://www.icloud.com/shortcuts/0bbc6535e51f42eb8839fb8dfcf3b6a5",
+        "name": "充值电费",
+        "url": "https://www.icloud.com/shortcuts/20004475c72d46b1b917da43e12a1bf8",
         "icon": "charging-station",
         "color": "#00796a",
         "description": "充值寝室电费，支持三牌楼与仙林。"
