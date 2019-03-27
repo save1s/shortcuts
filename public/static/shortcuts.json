@@ -15,7 +15,7 @@
     },
     {
         "name": "查询网费余额",
-        "url": "https://www.icloud.com/shortcuts/dca2c4c46e2c4a809049a37d6f0af3fe",
+        "url": "https://www.icloud.com/shortcuts/d058d1681a1b471793da5983033a0c73",
         "icon": "network-wired",
         "color": "rgb(251, 179, 11)",
         "description": "查询校园网 NJUPT 网费余额。支持使用siri查询"
@@ -47,5 +47,12 @@
         "icon": "calendar-week",
         "color": "#7C54E7",
         "description": "将南邮课程表导入iPhone、Mac、iCloud日历。"
+    },
+    {
+        "name": "查跑操",
+        "url": "https://www.icloud.com/shortcuts/c486c971c6f84459911044aad3df0253",
+        "icon": "running",
+        "color": "rgb(238, 50, 48)",
+        "description": "查询跑操总次数、今日是否跑操、以及最近的两次记录。"
     }
 ]
