@@ -10,8 +10,16 @@
       </el-header>
       <el-main>
         <div class="bs-container">
-            <el-alert title="save1s捷径目前正处于开发阶段，后端接口变化可能会导致捷径不可用，请注意及时更新。" type="warning" style="margin-bottom: 10px"></el-alert>
-                      <el-alert title="如果你是从微信或QQ打开的本网站，安装捷径时，可能需要选择菜单从Safari打开。" type="warning" style="margin-bottom: 10px"></el-alert>
+          <el-alert
+            title="如果需要使用Siri唤起捷径，请参考 https://support.apple.com/zh-cn/HT209055 进行设置。"
+            type="warning"
+            style="margin-bottom: 10px"
+          ></el-alert>
+          <el-alert
+            title="如果你是从微信或QQ打开的本网站，安装捷径时，需要从菜单点击“在Safari打开。”"
+            type="warning"
+            style="margin-bottom: 10px"
+          ></el-alert>
           <el-row :gutter="20" type="flex" justify="left" style="padding:5px">
             <el-col :span="24">
               <el-badge :value="shortcuts_count" class="item" type="primary">
@@ -19,8 +27,7 @@
               </el-badge>
             </el-col>
           </el-row>
-          
-          
+
           <!-- 四列布局 -->
           <el-row
             :gutter="20"
@@ -67,7 +74,7 @@
       <el-footer>
         <div class="bs-container">
           <el-tag type="info" @click="save1s" style="cursor: pointer; font-size: 14px">
-            <font-awesome-icon :icon="['fab', 'github']"/> A save1s project.
+            <font-awesome-icon :icon="['fab', 'github']"/>A save1s project.
           </el-tag>
         </div>
       </el-footer>

@@ -33,14 +33,14 @@ export default {
   },
   computed: {
     icon_class: function() {
-        return "fas fa-" + this.icon
-    },
+      return "fas fa-" + this.icon;
+    }
   },
   name: "Shortcut",
   props: ["color", "name", "icon", "url", "description"],
   methods: {
-    downloadShortcut: function(){
-      window.open(this.url, '_blank');
+    downloadShortcut: function() {
+      window.open(this.url, "_blank");
     }
   }
 };
@@ -51,9 +51,9 @@ export default {
 .text {
   font-size: 14px;
   font-weight: bold;
-overflow: hidden;
-text-overflow:ellipsis;
-white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .el-card {
   border-radius: 9px;
@@ -69,12 +69,12 @@ white-space: nowrap;
 }
 .box-card {
   color: white;
-  transition: all .3s ease-in-out;
-  box-shadow: 0 9px 18px 0 rgba(232,237,250,.8)!important;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 9px 18px 0 rgba(232, 237, 250, 0.8) !important;
 }
 
-.box-card:hover{
+.box-card:hover {
   margin-top: -5px;
-  box-shadow: 0 16px 18px 0 rgba(232,237,250,.8) !important;
+  box-shadow: 0 16px 18px 0 rgba(232, 237, 250, 0.8) !important;
 }
 </style>
