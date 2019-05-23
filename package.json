@@ -1,0 +1,16 @@
+{
+  "name": "shortcuts",
+  "version": "1.0.0",
+  "description": "shortcutes.save1s.com",
+  "main": "index.js",
+  "repository": "github.com/save1s/shortcuts",
+  "author": "gaoliang",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.48"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
