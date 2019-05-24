@@ -4,6 +4,7 @@
 <Shortcut 
     desc="一键查询校园卡余额，亦可通过siri查询" 
     needAPI="true" 
+    needPassword="true" 
     author="gaoliang" 
     siriAsk="查询校园卡余额" 
     siriAnswer="余额为：10.34元"

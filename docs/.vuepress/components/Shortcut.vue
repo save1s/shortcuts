@@ -1,8 +1,9 @@
 <template>
   <div class="shortcutBlock" :id="url">
     <p class="badge">
+      <Badge text="Siri友好" type="" vertical="middle" v-if="siriAsk"/>
       <Badge text="需要API" type="tip" vertical="middle" v-if="needAPI"/>
-      <Badge text="Siri友好" type="tip" vertical="middle" v-if="siriAsk"/>
+      <Badge text="需要密码" type="warn" vertical="middle" v-if="needPassword"/>
     </p>
     <p class="author">
       作者:
@@ -53,6 +54,10 @@ export default {
       required: true
     },
     needAPI: {
+      type: String,
+      default: null
+    },
+    needPassword: {
       type: String,
       default: null
     },
