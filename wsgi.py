@@ -2,7 +2,7 @@ import os
 import leancloud
 from cloud import engine
 
-from shortcut_api import app
+from app import app
 
 APP_ID = os.environ['LEANCLOUD_APP_ID']  # 从 LEANCLOUD_APP_ID 这个环境变量中获取应用 app id 的值
 APP_KEY = os.environ['LEANCLOUD_APP_KEY']  # 从 LEANCLOUD_APP_KEY 这个环境变量中获取应用 app key 的值
