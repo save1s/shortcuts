@@ -1,0 +1,7 @@
+{
+    "name": "Shortcuts save1s api",
+    "description": "shortcuts api for shortcuts.save1s.com",
+    "repository": "https://github.com/save1s/shortcuts",
+    "keywords": ["shortcuts", "save1s", "api", "python"],
+    "website": "https://shortcuts.save1s.com/"
+  }
