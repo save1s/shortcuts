@@ -10,9 +10,8 @@ cache:
     - node_modules
 install:
     - yarn -D
-    - yarn add -G apidoc
 script:
-    - apidoc -i app/ -o apidoc/ --debug
+    - yarn run apidoc -i app/ -o apidoc/ --debug
     - node apidoc2markdown.js
     - yarn docs:build
 deploy:
