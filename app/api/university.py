@@ -19,6 +19,12 @@ def is_same_day(datetime1, datetime2):
     return datetime1.date() == datetime2.date()
 
 
+"""
+@api {post} /university/njupt/card_balance 查询校园卡余额
+@apiGroup university
+@apiParam {String} account   校园卡卡号
+@apiParam {String} password  6位校园卡密码
+"""
 @api.route("university/njupt/card_balance", methods=["POST"])
 def njupt_card_balance():
     account = request.form['account']
@@ -27,6 +33,12 @@ def njupt_card_balance():
     return Result.success(message='查询成功', data=card.get_balance())
 
 
+"""
+@api {post} /university/njupt/run_times 查询跑操次数
+@apiGroup university
+@apiParam {String} student_id  卡号
+@apiParam {String} name  姓名
+"""
 @api.route("university/njupt/run_times", methods=["POST"])
 def njupt_run_times():
     student_id = request.form['student_id']

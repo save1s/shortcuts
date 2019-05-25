@@ -10,5 +10,5 @@
 ### 部署到 Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/save1s/shortcuts)
 
-### 部署到 leancloud
+### 部署到 LeanCloud
 todo

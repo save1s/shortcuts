@@ -7,10 +7,12 @@
   "author": "gaoliang",
   "license": "MIT",
   "devDependencies": {
+    "@rigwild/apidoc-markdown": "^2.0.2",
     "vuepress": "^1.0.0-alpha.48"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  }
+  },
+  "dependencies": {}
 }

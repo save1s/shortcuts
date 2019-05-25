@@ -5,12 +5,16 @@ node_js:
     - "10"
 
 cache:
+  yarn: true
   directories:
     - node_modules
 install:
-    - npm install -g vuepress
+    - yarn -D
+    - yarn add -G apidoc
 script:
-    - npm run docs:build
+    - apidoc -i app/ -o apidoc/ --debug
+    - node apidoc2markdown.js
+    - yarn docs:build
 deploy:
   provider: pages
   target_branch: gh-pages

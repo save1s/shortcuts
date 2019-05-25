@@ -4,16 +4,27 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '指南', link: '/' },
-            { text: 'API', link: '/api' },
-            { text: '部署', link: '/deploy' },
+            { text: 'API', link: '/api/' },
+            { text: '部署', link: '/deploy/' },
             { text: 'GitHub', link: 'https://github.com/save1s/shortcuts' },
         ],
         sidebar: {
+            '/api/': [
+                '',
+                {
+                    title: 'API 详细',
+                    collapsable: false,
+                    sidebarDepth: 3,
+                    children: [
+                        'university'
+                    ],
+                },
+            ],
             '/': [
                 '',
                 {
                     title: '捷径列表',
-                    collapsable: false,
+                    collapsable: true,
                     sidebarDepth: 3,
                     children: [
                         'university'
