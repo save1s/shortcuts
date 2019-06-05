@@ -1,0 +1,10 @@
+.git/
+.DS_Store
+.avoscloud/
+.leancloud/
+venv
+*.pyc
+__pycache__/
+
+# Dependency directories
+node_modules/

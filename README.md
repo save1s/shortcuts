@@ -11,4 +11,8 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/save1s/shortcuts)
 
 ### 部署到 LeanCloud
-todo
+1. 在 [LeanCloud](https://leancloud.cn) 上新建一个应用
+1. clone 代码到本地
+2. 配置 [LeanCloud CLI 工具](https://leancloud.cn/docs/leanengine_cli.html)，并登录 leancloud 账号
+3. `lean switch` 选择要部署到的 app
+4. `lean deploy` 部署

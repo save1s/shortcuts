@@ -1,4 +1,7 @@
-"""大学相关api"""
+"""
+大学相关api
+@apiDefine university 大学
+"""
 from datetime import datetime
 import pytz
 from flask import request
@@ -20,7 +23,7 @@ def is_same_day(datetime1, datetime2):
 
 
 """
-@api {post} /university/njupt/card_balance 查询校园卡余额
+@api {post} /university/njupt/card_balance 南京邮电大学-查询校园卡余额
 @apiGroup university
 @apiParam {String} account   校园卡卡号
 @apiParam {String} password  6位校园卡密码
@@ -34,7 +37,7 @@ def njupt_card_balance():
 
 
 """
-@api {post} /university/njupt/run_times 查询跑操次数
+@api {post} /university/njupt/run_times 南京邮电大学-查询跑操次数
 @apiGroup university
 @apiParam {String} student_id  卡号
 @apiParam {String} name  姓名

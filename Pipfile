@@ -12,8 +12,10 @@ autopep8 = "*"
 flask = "*"
 njupt = "*"
 pytz = "*"
-leancloud = "*"
+leancloud = "<3.0.0,>=2.0.0"
 gunicorn = "*"
+gevent = ">=1.0.2,<2.0.0"
+gevent-websocket = ">=0.9.5,<1.0.0"
 
 [requires]
 python_version = "3.7"
