@@ -18,7 +18,7 @@ leancloud==2.1.12
 lxml==4.3.3
 markupsafe==1.1.1
 njupt==0.2.3
-pillow==6.0.0
+pillow==9.3.0
 python-dateutil==2.8.0
 pytz==2019.1
 qiniu==7.2.2
